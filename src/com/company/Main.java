@@ -12,21 +12,36 @@ public class Main {
 
     private static int a, b, c, z;
 
+
+    public Main(int a, int b, int c) {
+        this.a = a;
+        this.b = b;
+        this.c = c;
+    }
+
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        System.out.println("Введите а ");
         String s1 = reader.readLine();
+
+        System.out.println("Введите b ");
         String s2 = reader.readLine();
+
+        System.out.println("Введите c ");
         String s3 = reader.readLine();
-        System.out.println("Введите а " + a);
-        System.out.println("Введите b " + b);
-        System.out.println("Введите c " + c);
+
         a = Integer.parseInt(s1);
         b = Integer.parseInt(s2);
         c = Integer.parseInt(s3);
 
+        formula(a, b, c);
+
+    }
+
+    public static int formula(int a, int b, int c) {
         z = ((a - 3) * b / 2) + c;
 
-        System.out.println(z);
-
+        System.out.println("z = " + z);
+        return z;
     }
 }
