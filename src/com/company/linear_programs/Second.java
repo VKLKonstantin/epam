@@ -1,23 +1,16 @@
-package com.company;
+package com.company.linear_programs;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+
 /**
- * Basics of software code development
- * Найдите  значение функции: z = ( (a – 3 ) * b / 2) + c
+ * Вычислить значение выражения по формуле (все переменные принимают действительные значения)
  */
-public class Main {
+public class Second {
 
-    private static int a, b, c, z;
-
-
-    public Main(int a, int b, int c) {
-        this.a = a;
-        this.b = b;
-        this.c = c;
-    }
+    private static double a, b, c, z;
 
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
@@ -30,16 +23,15 @@ public class Main {
         System.out.println("Введите c ");
         String s3 = reader.readLine();
 
-        a = Integer.parseInt(s1);
-        b = Integer.parseInt(s2);
-        c = Integer.parseInt(s3);
+        a = Double.parseDouble(s1);
+        b = Double.parseDouble(s2);
+        c = Double.parseDouble(s3);
 
         formula(a, b, c);
-
     }
 
-    public static int formula(int a, int b, int c) {
-        z = ((a - 3) * b / 2) + c;
+    public static double formula(double a, double b, double c) {
+        z = (b + (Math.sqrt(Math.pow(b, 2.0) + 4 * a * c))) / 2 * a - (Math.pow(a, 3.0) * c) + Math.pow(b, -2.0);
 
         System.out.println("z = " + z);
         return z;
