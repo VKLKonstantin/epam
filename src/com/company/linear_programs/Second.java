@@ -31,8 +31,8 @@ public class Second {
     }
 
     public static double formula(double a, double b, double c) {
-        if (a==0){
-            throw new ArithmeticException("Деление на 0");
+        if (a<=0||b<0||c<0){
+            throw new ArithmeticException("Ошибка! Деление на 0 или переменные не действительные числа");
         }
         z = (b + (Math.sqrt(Math.pow(b, 2.0) + 4 * a * c))) / 2 * a - (Math.pow(a, 3.0) * c) + Math.pow(b, -2.0);
 
