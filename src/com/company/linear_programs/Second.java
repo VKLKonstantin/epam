@@ -31,6 +31,9 @@ public class Second {
     }
 
     public static double formula(double a, double b, double c) {
+        if (a==0){
+            throw new ArithmeticException("Деление на 0");
+        }
         z = (b + (Math.sqrt(Math.pow(b, 2.0) + 4 * a * c))) / 2 * a - (Math.pow(a, 3.0) * c) + Math.pow(b, -2.0);
 
         System.out.println("z = " + z);
