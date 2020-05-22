@@ -1,5 +1,6 @@
-package com.company.linear_programs;
+package com.company.test;
 
+import com.company.linear_programs.Third;
 import org.junit.Test;
 
 import static org.hamcrest.core.Is.is;
