@@ -1,6 +1,6 @@
-package com.company.test;
+package linear_programs;
 
-import com.company.linear_programs.Forth;
+import linear_programs.linear_programs.Forth;
 import org.junit.Test;
 
 import static org.hamcrest.core.Is.is;

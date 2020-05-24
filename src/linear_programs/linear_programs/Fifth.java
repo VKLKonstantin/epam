@@ -1,4 +1,4 @@
-package com.company.linear_programs;
+package linear_programs.linear_programs;
 
 import java.io.BufferedReader;
 import java.io.IOException;
