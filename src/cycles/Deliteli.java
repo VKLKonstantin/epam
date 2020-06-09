@@ -9,7 +9,7 @@ import java.io.InputStreamReader;
  * m и n вводятся с клавиатуры
  */
 public class Deliteli {
-    private static int m, n, remaining_part;
+    private static int m, n;
 
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
