@@ -1,4 +1,4 @@
-package linear_programs.linear_programs;
+package by.constantinVKLcorporation.linear_programs;
 
 import org.junit.Test;
 

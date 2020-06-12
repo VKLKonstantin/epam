@@ -1,4 +1,4 @@
-package cycles;
+package by.constantinVKLcorporation.cycles;
 
 /**
  * Найти сумму квадратов первых ста чисел

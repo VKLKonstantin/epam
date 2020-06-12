@@ -1,4 +1,4 @@
-package linear_programs.linear_programs;
+package by.constantinVKLcorporation.linear_programs;
 
 import java.io.BufferedReader;
 import java.io.IOException;

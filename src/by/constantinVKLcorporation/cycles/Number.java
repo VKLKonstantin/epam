@@ -1,4 +1,4 @@
-package cycles;
+package by.constantinVKLcorporation.cycles;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 /**
  * Даны два числа. Определить цифры, входящие в запись как первого так и второго числа.
  */
-public class Numbers {
+public class Number {
     private static int m, n, z = 1;
 
     public static void main(String[] args) throws IOException {

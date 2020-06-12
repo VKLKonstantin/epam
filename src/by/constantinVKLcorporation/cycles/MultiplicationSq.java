@@ -1,4 +1,4 @@
-package cycles;
+package by.constantinVKLcorporation.cycles;
 
 import java.math.BigInteger;
 

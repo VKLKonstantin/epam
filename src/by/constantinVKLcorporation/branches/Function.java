@@ -1,4 +1,4 @@
-package branches;
+package by.constantinVKLcorporation.branches;
 
 import java.io.BufferedReader;
 import java.io.IOException;
