@@ -1,6 +1,6 @@
 package linear_programs;
 
-import by.constantinVKLcorporation.linear_programs.Forth;
+import by.constantinVKLcorporation.module_01.linear_program.Forth;
 import org.junit.Test;
 
 import static org.hamcrest.core.Is.is;

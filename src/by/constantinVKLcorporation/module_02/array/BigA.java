@@ -1,6 +1,4 @@
-package by.constantinVKLcorporation.algorithmization;
-
-import java.sql.SQLOutput;
+package by.constantinVKLcorporation.module_02.array;
 
 /**
  * Даны целые числа а1 ,а2 ,..., аn . Вывести на печать только те числа, для которых аi > i.

@@ -1,4 +1,4 @@
-package by.constantinVKLcorporation.branches;
+package by.constantinVKLcorporation.module_01.branch;
 
 
 import java.io.BufferedReader;

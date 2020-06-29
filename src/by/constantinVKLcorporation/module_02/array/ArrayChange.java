@@ -1,4 +1,4 @@
-package by.constantinVKLcorporation.algorithmization;
+package by.constantinVKLcorporation.module_02.array;
 
 /**
  * Даны действительные числа а1 ,а2 ,..., аn . Поменять местами наибольший и наименьший элементы.
@@ -18,7 +18,7 @@ public class ArrayChange {
             }
         }
 
-        buff = a[buff_min];
+        buff = a[buff_min];//замена элементов через буфер
         a[buff_min] = a[buff_max];
         a[buff_max] = buff;
 

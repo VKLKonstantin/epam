@@ -1,4 +1,4 @@
-package by.constantinVKLcorporation.algorithmization;
+package by.constantinVKLcorporation.module_02.array;
 
 /**
  * В массив A [N] занесены натуральные числа. Найти сумму тех элементов, которые кратны данному К
@@ -9,7 +9,7 @@ public class ArraySimple {
 
     public static void main(String[] args) {
         for (int i = 0; i < a.length; i++) {
-            if (a[i] % k == 0) {
+            if (a[i] % k == 0) {//если остаток от деленея на k = 0, то элемент кратен
                 sum = sum + a[i];
             }
         }

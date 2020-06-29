@@ -1,6 +1,6 @@
 package linear_programs;
 
-import by.constantinVKLcorporation.linear_programs.Third;
+import by.constantinVKLcorporation.module_01.linear_program.Third;
 import org.junit.Test;
 
 import static org.hamcrest.core.Is.is;

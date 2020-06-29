@@ -1,4 +1,4 @@
-package by.constantinVKLcorporation.cycles;
+package by.constantinVKLcorporation.module_01.loop;
 
 import java.io.BufferedReader;
 import java.io.IOException;

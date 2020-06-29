@@ -1,4 +1,4 @@
-package by.constantinVKLcorporation.algorithmization;
+package by.constantinVKLcorporation.module_02.array;
 
 /**
  * Дан  массив  действительных  чисел,  размерность  которого  N.  Подсчитать,  сколько  в  нем  отрицательных,
