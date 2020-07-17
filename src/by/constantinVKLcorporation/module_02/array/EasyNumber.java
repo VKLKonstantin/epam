@@ -3,27 +3,27 @@ package by.constantinVKLcorporation.module_02.array;
 /**
  * Задана  последовательность  N  вещественных  чисел.  Вычислить  сумму  чисел,  порядковые  номера  которых
  * являются простыми числами
+ *
+ *
+ *
  */
 public class EasyNumber {
-    private static int first[] = {1, 103, -5, 9, 7, 6, 0, -16, -4, 125};
+
     public static void main(String[] args) {
-        for (int i = 0; i < first.length; i++) {
-           /* if(){
 
-            }*/
+        int first[] = {1, 2, 8, 4, 7, 15, 20};
+        int sum = first[2] + first[3];
+        for (int i = 4; i < first.length; i++) {
+            for (int j = 2; j < i - 1; j++) {
+                if (i % j == 0) {
+                   break;
+                }
+                sum = sum + first[i];
+            }
         }
 
+
+        System.out.println(sum);
     }
-   /* public boolean easy(int a){
-        for (int i=2; i<a-1;i++){
-            if(a%i==0){
-                break;
-                return false;
-            }
-            else {
-                continue;
-            }
 
-        }
-    }*/
 }
