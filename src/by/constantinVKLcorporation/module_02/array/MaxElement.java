@@ -6,7 +6,7 @@ package by.constantinVKLcorporation.module_02.array;
 public class MaxElement {
 
     public static void main(String[] args) {
-        int massive[] = {1, 2, 3, 6, 1, 10, -8};
+        double massive[] = {1.9, 2.0, 3.7, 6.3, 1.0, 10.9, -8.1};
         double max_value = Double.MIN_VALUE;
         for (int i = 0, j = massive.length - 1; i < j; i++, j--) {
             max_value = Double.max(max_value, massive[i] + massive[j]);
