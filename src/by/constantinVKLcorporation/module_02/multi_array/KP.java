@@ -11,22 +11,22 @@ import java.io.InputStreamReader;
 public class KP {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        //формирование матрицы
-        System.out.println("Введите количество строк ");
-        int strings = Integer.parseInt(reader.readLine());
+            //формирование матрицы
+            System.out.println("Введите количество строк ");
+            int strings = Integer.parseInt(reader.readLine());
 
-        System.out.println("Введите количество столбцов ");
-        int columns = Integer.parseInt(reader.readLine());
+            System.out.println("Введите количество столбцов ");
+            int columns = Integer.parseInt(reader.readLine());
 
-        int[][] a = new int[strings][columns];
-        for (int i = 0; i < a.length; i++) {
-            for (int j = 0; j < a[i].length; j++) {
+            int[][] a = new int[strings][columns];
+            for (int i = 0; i < a.length; i++) {
+                for (int j = 0; j < a[i].length; j++) {
 
-                a[i][j] = (int) (Math.random() * 30);
-                System.out.print(a[i][j] + "  ");
+                    a[i][j] = (int) (Math.random() * 30);
+                    System.out.print(a[i][j] + "  ");
+                }
+                System.out.println();
             }
-            System.out.println();
-        }
 
         // выбор искомой строки и столбца
         System.out.println("Введите номер строки");
