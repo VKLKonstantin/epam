@@ -13,7 +13,13 @@ public class Square {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         System.out.println("Введите n (n должно быть четное): ");
+
+
         int n = Integer.parseInt(reader.readLine());
+
+        if(n%2!=0){
+
+        }
 
         int[][] a = new int[n][n];
         int first = 0;
