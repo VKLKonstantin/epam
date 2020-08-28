@@ -24,6 +24,7 @@ public class PositiveDiagonalMatrix {
 
                 a[i][j] = -5 + ((int) (Math.random() * 10) + 1);
                 System.out.printf("%10d", a[i][j]);
+
             }
             System.out.println();
         }
