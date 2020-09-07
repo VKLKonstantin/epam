@@ -11,28 +11,19 @@ public class MassiveAndSort {
     public static void main(String[] args) {
         int mas1[] = {0, 1, 2, 3, 4, 5, 6, 7};
         int mas2[] = {22, 23, 224, 242};
-        int mas3[] = new int[mas1.length + mas2.length];
         int k = 3;
-        int count = 0;
+        for (int i = 0; i < mas1.length; i++) {
+            if (i < k) {
+                System.out.print(mas1[i] + " ");
+            } else if (i == k) {
+                for (int j = 0; j < mas2.length; j++) {
+                    System.out.print(mas2[j] + " ");
+                }
+            } else {
+                System.out.print(mas1[i] + " ");
+            }
 
-        for (int i = 0; i < k; i++) {
-            mas3[i] = mas1[i];
-            count++;
-        }
-
-        for (int i = 0; i < mas2.length; i++) {
-            mas3[count++] = mas2[i];
-
-        }
-
-        for (int i = 0; i < mas1.length - k; i++) {
-            mas3[count++] = mas1[k + i];
 
         }
-
-        for (int a : mas3) {
-            System.out.print(a + " ");
-        }
-
     }
 }
