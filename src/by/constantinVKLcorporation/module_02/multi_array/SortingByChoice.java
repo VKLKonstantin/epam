@@ -17,9 +17,9 @@ public class SortingByChoice {
         BufferedReader read = new BufferedReader(new InputStreamReader(System.in));
         int buffer;
 
-        System.out.println("Введите размерность первого массива");
-        int n1 = Integer.parseInt(read.readLine());
-        int[] mass = new int[n1];
+        System.out.println("Введите размерность массива");
+        int n = Integer.parseInt(read.readLine());
+        int[] mass = new int[n];
 
         for (int i = 0; i < mass.length; i++) {
             mass[i] = i;
