@@ -15,7 +15,7 @@ public class Coordinates {
 
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        {
+
             System.out.println("Введите количество строк: ");
             int n = Integer.parseInt(reader.readLine());
             System.out.println("Введите количество столбцов: ");
@@ -33,7 +33,7 @@ public class Coordinates {
             System.out.printf("Максимальное расстояние между точками %d и %d, равно %.2f %n",
                     result[0], result[1], maxDistance);
         }
-    }
+
 
     private static double distance(int[][] matrix) {// формула нахождения расстояния между координатами
         return Math.sqrt(Math.pow((matrix[0][0] - matrix[1][0]), 2)
